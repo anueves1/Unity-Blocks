@@ -14,3 +14,7 @@ Place Mode:
 
 Aside from that, there is also destroy mode (R) where you can click on the nodes to destroy blocks, and finally, 
 you can rebuild the foundation by pressing the UI.(Rebuild)
+
+Destroy Mode:
+
+![ezgif com-video-to-gif 2](https://user-images.githubusercontent.com/20110074/41062457-2b68ac54-69d6-11e8-9919-2bc45b6baac9.gif)
