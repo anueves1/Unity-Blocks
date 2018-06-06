@@ -24,20 +24,13 @@ namespace Blocks
 
         private void Start() { Spawn(); }
 
-        private void Update()
+        public void Rebuild()
         {
-            //Check if we need to respawn the floor.
-            var refreshFloor = Input.GetKeyDown(KeyCode.R);
+            //Destroy the current one.
+            DestroyImmediate(m_Holder.gameObject);
 
-            //If we do.
-            if (refreshFloor)
-            {
-                //Destroy the current one.
-                DestroyImmediate(m_Holder.gameObject);
-
-                //Spawn a new one.
-                Spawn();
-            }
+            //Spawn a new one.
+            Spawn();
         }
 
         private void MakeHolder()
@@ -82,6 +75,10 @@ namespace Blocks
                     GameObject nObject = Instantiate(m_Prefab, m_Holder);
                     //Set its position.
                     nObject.transform.position = pos;
+
+                    //Get the block.
+                    Block block = nObject.GetComponent<Block>();
+                    block.Place();
                 }
             }
         }

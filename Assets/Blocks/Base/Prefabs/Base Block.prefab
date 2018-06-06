@@ -231,7 +231,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1208479156518998}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6289396, y: 3.3181014, z: -21.09084}
+  m_LocalPosition: {x: 4.8163767, y: 0.56771994, z: -12.644424}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4824853207725478}
@@ -659,6 +659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_PlacePosition: {x: 0, y: 1, z: 0}
 --- !u!114 &114422785080266098
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -670,6 +671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_PlacePosition: {x: 0, y: 0, z: 1}
 --- !u!114 &114470569407833992
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -681,6 +683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_PlacePosition: {x: -1, y: 0, z: 0}
 --- !u!114 &114615530033614674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -692,6 +695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_PlacePosition: {x: 1, y: 0, z: 0}
 --- !u!114 &114616462709090672
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -703,6 +707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_PlacePosition: {x: 0, y: -1, z: 0}
 --- !u!114 &114621247494476274
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -714,6 +719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_PlacePosition: {x: 0, y: 0, z: -1}
 --- !u!114 &114841805773313520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -726,4 +732,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Normal: {fileID: 2100000, guid: 7af16df2111417b47900f5e51dc52a80, type: 2}
-  m_Highlighted: {fileID: 2100000, guid: e4d801003a5f6fc468d00c3824f25a43, type: 2}
+  m_Highlight: {fileID: 2100000, guid: e4d801003a5f6fc468d00c3824f25a43, type: 2}
+  m_Transparent: {fileID: 2100000, guid: e9eb940b66034cd4cb671f4eba6a332a, type: 2}
