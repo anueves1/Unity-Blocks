@@ -9,6 +9,8 @@ at the start, there is a probablity value that is used to make blocks not spawn 
 
 The scene has a Camera (Player) that can move using the usual Unity Editor Camera controls.
 
+![ezgif com-video-to-gif 5](https://user-images.githubusercontent.com/20110074/41062675-d2c131a6-69d6-11e8-806c-7e6b7b6a68fd.gif)
+
 # Place Mode:
 
 You can also press B to enter place mode, where you can click on nodes (Little red dots) to place a block on them.
