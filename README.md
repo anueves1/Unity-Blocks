@@ -10,7 +10,7 @@ press B to enter place mode, where you can click on nodes (Little red dots) to p
 
 Place Mode:
 
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/20110074/41062139-245de3f8-69d5-11e8-8715-ac4d2a65c8f4.gif)
+![ezgif com-video-to-gif 1](https://user-images.githubusercontent.com/20110074/41062288-b627eefa-69d5-11e8-80f2-c598a21d0b2d.gif)
 
 Aside from that, there is also destroy mode (R) where you can click on the nodes to destroy blocks, and finally, 
 you can rebuild the foundation by pressing the UI.(Rebuild)
