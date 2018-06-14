@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "com.unity.cinemachine": "2.1.13"
+    "com.unity.render-pipelines.lightweight": "1.1.10-preview",
+    "com.unity.shadergraph": "1.1.9-preview",
+    "com.unity.cinemachine": "2.1.13",
+    "com.unity.entities": "0.0.12-preview.6"
   }
 }
