@@ -2,7 +2,7 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:"E:/Blocks ECS/Temp/Assembly-CSharp.dll"
+-out:E:/Blocks/Temp/Assembly-CSharp.dll
 -nostdlib
 -unsafe
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
@@ -65,34 +65,34 @@
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\Managed/Unity.Locator.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Cinemachine.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Transforms.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Entities.Properties.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Jobs.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Jobs.Editor.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Entities.Editor.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/com.unity.render-pipelines.core.Editor.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Properties.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Collections.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/com.unity.render-pipelines.core.Runtime.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Burst.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/com.unity.render-pipelines.lightweight.Runtime.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/com.unity.render-pipelines.lightweight.Editor.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Properties.Editor.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Mathematics.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Entities.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Cinemachine.Editor.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Burst.Editor.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Transforms2D.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/com.unity.render-pipelines.core.IncludePaths.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll"
+-r:E:/Blocks/Library/ScriptAssemblies/Cinemachine.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Transforms.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Entities.Properties.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Jobs.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Jobs.Editor.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Entities.Editor.dll
+-r:E:/Blocks/Library/ScriptAssemblies/com.unity.render-pipelines.core.Editor.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Properties.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Collections.dll
+-r:E:/Blocks/Library/ScriptAssemblies/com.unity.render-pipelines.core.Runtime.dll
+-r:E:/Blocks/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Burst.dll
+-r:E:/Blocks/Library/ScriptAssemblies/com.unity.render-pipelines.lightweight.Runtime.dll
+-r:E:/Blocks/Library/ScriptAssemblies/com.unity.render-pipelines.lightweight.Editor.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll
+-r:E:/Blocks/Library/ScriptAssemblies/com.unity.postprocessing.Editor.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Properties.Editor.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Mathematics.dll
+-r:E:/Blocks/Library/ScriptAssemblies/com.unity.postprocessing.Runtime.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Entities.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Cinemachine.Editor.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Burst.Editor.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Transforms2D.dll
+-r:E:/Blocks/Library/ScriptAssemblies/com.unity.render-pipelines.core.IncludePaths.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
@@ -311,17 +311,13 @@
 -d:ENABLE_UNITY_COLLECTIONS_CHECKS
 -d:UNITY_TEAM_LICENSE
 -d:UNITY_POST_PROCESSING_STACK_V2
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/ECS/Blocks/BlockComponent.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/ECS/Blocks/NodeComponent.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/ECS/Player/Building/PlayerBuildingComponent.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/ECS/Player/Building/PlayerBuildingSystem.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/ECS/Player/Movement/PlayerMovementComponent.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/ECS/Player/Movement/PlayerMovementSystem.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/ECS/Utility/MapSpawning/MapSpawnerComponent.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/ECS/Utility/MapSpawning/MapSpawningSystem.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/Normal/Blocks/Block.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/Normal/Blocks/Node.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/Normal/Player/Builder.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/Normal/Player/Movement.cs"
--i:"E:/Blocks ECS/Assets/Blocks/Base/Scripts/Normal/Scene/Spawner.cs"
+-i:E:/Blocks/Assets/Blocks/Base/Scripts/ECS/Blocks/BlockComponent.cs
+-i:E:/Blocks/Assets/Blocks/Base/Scripts/ECS/Blocks/NodeComponent.cs
+-i:E:/Blocks/Assets/Blocks/Base/Scripts/ECS/Player/Building/PlayerBuildingComponent.cs
+-i:E:/Blocks/Assets/Blocks/Base/Scripts/ECS/Player/Building/PlayerBuildingSystem.cs
+-i:E:/Blocks/Assets/Blocks/Base/Scripts/ECS/Player/Movement/PlayerMovementComponent.cs
+-i:E:/Blocks/Assets/Blocks/Base/Scripts/ECS/Player/Movement/PlayerMovementSystem.cs
+-i:E:/Blocks/Assets/Blocks/Base/Scripts/ECS/Utility/MapSpawning/MapSpawnerComponent.cs
+-i:E:/Blocks/Assets/Blocks/Base/Scripts/ECS/Utility/MapSpawning/MapSpawningSystem.cs
+-i:E:/Blocks/Assets/Blocks/Building.cs
 -v:0

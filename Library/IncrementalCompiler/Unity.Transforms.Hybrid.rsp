@@ -2,16 +2,16 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:"E:/Blocks ECS/Temp/Unity.Transforms.Hybrid.dll"
+-out:E:/Blocks/Temp/Unity.Transforms.Hybrid.dll
 -nostdlib
 -unsafe
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Entities.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Transforms.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Collections.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Burst.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Jobs.dll"
--r:"E:/Blocks ECS/Library/ScriptAssemblies/Unity.Mathematics.dll"
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Entities.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Transforms.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Collections.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Burst.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Jobs.dll
+-r:E:/Blocks/Library/ScriptAssemblies/Unity.Mathematics.dll
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -76,9 +76,6 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
--r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
--r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
--r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
@@ -101,6 +98,7 @@
 -r:C:/Users/tavip/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/Editor/UnityEditor.Purchasing.dll
 -r:C:/Users/tavip/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.render-pipelines.core@1.1.10-preview/CoreRP/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll
 -r:C:/Users/tavip/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:E:/Blocks/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\tavip\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Blocks.-568437297.00" t="ExcludeRecursive" />
+    <e p="E:\Blocks" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Blocks" t="Include">
+          <e p="Base" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ECS" t="Include">
+                <e p="Blocks" t="Include">
+                  <e p="BlockComponent.cs" t="Include" />
+                  <e p="NodeComponent.cs" t="Include" />
+                </e>
+                <e p="Player" t="Include">
+                  <e p="Building" t="Include">
+                    <e p="PlayerBuildingComponent.cs" t="Include" />
+                    <e p="PlayerBuildingSystem.cs" t="Include" />
+                  </e>
+                  <e p="Movement" t="Include">
+                    <e p="PlayerMovementComponent.cs" t="Include" />
+                    <e p="PlayerMovementSystem.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Utility" t="Include">
+                  <e p="MapSpawning" t="Include">
+                    <e p="MapSpawnerComponent.cs" t="Include" />
+                    <e p="MapSpawningSystem.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Building.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Blocks.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

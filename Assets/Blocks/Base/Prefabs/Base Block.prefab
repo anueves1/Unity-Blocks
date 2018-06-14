@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33289635289564668}
   - component: {fileID: 23801433375059972}
   - component: {fileID: 65246104616566724}
-  - component: {fileID: 114470569407833992}
-  m_Layer: 0
+  - component: {fileID: 114444835598344272}
+  m_Layer: 9
   m_Name: NLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 33103267794420182}
   - component: {fileID: 23039546230197394}
   - component: {fileID: 65742576172493510}
-  - component: {fileID: 114841805773313520}
+  - component: {fileID: 114551515932092216}
   m_Layer: 0
   m_Name: Base Block
   m_TagString: Untagged
@@ -60,8 +60,8 @@ GameObject:
   - component: {fileID: 33473475778214530}
   - component: {fileID: 23583866541682176}
   - component: {fileID: 65919906494359276}
-  - component: {fileID: 114621247494476274}
-  m_Layer: 0
+  - component: {fileID: 114363809272566216}
+  m_Layer: 9
   m_Name: NBackwards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,8 +79,8 @@ GameObject:
   - component: {fileID: 33583119749914088}
   - component: {fileID: 23022221415656856}
   - component: {fileID: 65279917893081894}
-  - component: {fileID: 114616462709090672}
-  m_Layer: 0
+  - component: {fileID: 114783852450861656}
+  m_Layer: 9
   m_Name: NBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,8 +113,8 @@ GameObject:
   - component: {fileID: 33398689002400002}
   - component: {fileID: 23225133154190432}
   - component: {fileID: 65552820232257364}
-  - component: {fileID: 114615530033614674}
-  m_Layer: 0
+  - component: {fileID: 114861496621133212}
+  m_Layer: 9
   m_Name: NRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,8 +132,8 @@ GameObject:
   - component: {fileID: 33816467178059360}
   - component: {fileID: 23525745475768814}
   - component: {fileID: 65573455122903962}
-  - component: {fileID: 114422785080266098}
-  m_Layer: 0
+  - component: {fileID: 114260639051603406}
+  m_Layer: 9
   m_Name: NForward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,8 +151,8 @@ GameObject:
   - component: {fileID: 33392046182954214}
   - component: {fileID: 23440792925738254}
   - component: {fileID: 65925140473909042}
-  - component: {fileID: 114109947997359556}
-  m_Layer: 0
+  - component: {fileID: 114824495656055572}
+  m_Layer: 9
   m_Name: NTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1208479156518998}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.8163767, y: 0.56771994, z: -12.644424}
+  m_LocalPosition: {x: 1637.4014, y: 1164.2247, z: -248.92181}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4824853207725478}
@@ -648,19 +648,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114109947997359556
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1911259771662516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PlacePosition: {x: 0, y: 1, z: 0}
---- !u!114 &114422785080266098
+--- !u!114 &114260639051603406
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -668,47 +656,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1791824111756540}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 96dbb096af717f94dbc997c031114215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlacePosition: {x: 0, y: 0, z: 1}
---- !u!114 &114470569407833992
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1001283793497916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PlacePosition: {x: -1, y: 0, z: 0}
---- !u!114 &114615530033614674
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1740439115415574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PlacePosition: {x: 1, y: 0, z: 0}
---- !u!114 &114616462709090672
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1639545564649556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PlacePosition: {x: 0, y: -1, z: 0}
---- !u!114 &114621247494476274
+  PlacePosition: {x: 0, y: 0, z: 1}
+--- !u!114 &114363809272566216
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -716,11 +668,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1381079907244258}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb54751b9e922ed4ca52d47c4800b0e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 96dbb096af717f94dbc997c031114215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlacePosition: {x: 0, y: 0, z: -1}
---- !u!114 &114841805773313520
+  PlacePosition: {x: 0, y: 0, z: -1}
+--- !u!114 &114444835598344272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1001283793497916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dbb096af717f94dbc997c031114215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlacePosition: {x: -1, y: 0, z: 0}
+--- !u!114 &114551515932092216
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -728,9 +692,46 @@ MonoBehaviour:
   m_GameObject: {fileID: 1208479156518998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5689041c458ea884c91e1deceb6ae30f, type: 3}
+  m_Script: {fileID: 11500000, guid: fac7e09495004e14ebee983357bf7720, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Normal: {fileID: 2100000, guid: 7af16df2111417b47900f5e51dc52a80, type: 2}
-  m_Highlight: {fileID: 2100000, guid: e4d801003a5f6fc468d00c3824f25a43, type: 2}
-  m_Transparent: {fileID: 2100000, guid: e9eb940b66034cd4cb671f4eba6a332a, type: 2}
+  m_NormalMaterial: {fileID: 2100000, guid: 7af16df2111417b47900f5e51dc52a80, type: 2}
+  m_HighlightMaterial: {fileID: 2100000, guid: e4d801003a5f6fc468d00c3824f25a43, type: 2}
+  m_PlaceMaterial: {fileID: 2100000, guid: e9eb940b66034cd4cb671f4eba6a332a, type: 2}
+  m_DestroyMaterial: {fileID: 2100000, guid: 4549a19acc287a44f8beb706d9f89520, type: 2}
+--- !u!114 &114783852450861656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1639545564649556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dbb096af717f94dbc997c031114215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlacePosition: {x: 0, y: -1, z: 0}
+--- !u!114 &114824495656055572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1911259771662516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dbb096af717f94dbc997c031114215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlacePosition: {x: 0, y: 1, z: 0}
+--- !u!114 &114861496621133212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1740439115415574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dbb096af717f94dbc997c031114215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlacePosition: {x: 1, y: 0, z: 0}

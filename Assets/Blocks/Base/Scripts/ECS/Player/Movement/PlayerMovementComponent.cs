@@ -1,16 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Cinemachine;
 using UnityEngine;
 
-public class PlayerMovementComponent : MonoBehaviour {
+namespace Anueves1.Blocks
+{
+    public class PlayerMovementComponent : MonoBehaviour
+    {
+        public float Speed = 1;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+        [HideInInspector]
+        public CinemachineBrain CBrain;
+    }
 }

@@ -1,16 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class NodeComponent : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+namespace Anueves1.Blocks
+{
+	public class NodeComponent : MonoBehaviour
+	{
+		public Vector3 PlacePosition;
 	}
 }
